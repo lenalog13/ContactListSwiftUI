@@ -11,7 +11,13 @@ struct ContactsView: View {
     let contactList: [Person]
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(contactList, id: \.self) { contact in
+            NavigationLink(destination: ContactDatailView(contact: contact)) {
+                Text("\(contact.name) \(contact.surname)")
+            }
+        }
+        .navigationTitle("ContactList")
+        .listStyle(.plain)
     }
 }
 

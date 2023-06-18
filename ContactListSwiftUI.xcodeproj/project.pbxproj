@@ -14,7 +14,7 @@
 		4DFF1C0B2A3EF06300AD7C2A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF1C0A2A3EF06300AD7C2A /* Person.swift */; };
 		4DFF1C0D2A3EF09800AD7C2A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF1C0C2A3EF09800AD7C2A /* DataManager.swift */; };
 		4DFF1C0F2A3EF2E100AD7C2A /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF1C0E2A3EF2E100AD7C2A /* ContactsView.swift */; };
-		4DFF1C112A3EF2F800AD7C2A /* ContactsDatailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF1C102A3EF2F800AD7C2A /* ContactsDatailView.swift */; };
+		4DFF1C112A3EF2F800AD7C2A /* ContactDatailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF1C102A3EF2F800AD7C2A /* ContactDatailView.swift */; };
 		4DFF1C132A3EF30C00AD7C2A /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF1C122A3EF30C00AD7C2A /* NumbersView.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +27,7 @@
 		4DFF1C0A2A3EF06300AD7C2A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		4DFF1C0C2A3EF09800AD7C2A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		4DFF1C0E2A3EF2E100AD7C2A /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
-		4DFF1C102A3EF2F800AD7C2A /* ContactsDatailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDatailView.swift; sourceTree = "<group>"; };
+		4DFF1C102A3EF2F800AD7C2A /* ContactDatailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDatailView.swift; sourceTree = "<group>"; };
 		4DFF1C122A3EF30C00AD7C2A /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +64,7 @@
 				4DFF1BFC2A3CA1A000AD7C2A /* ContactListSwiftUIApp.swift */,
 				4DFF1BFE2A3CA1A000AD7C2A /* ContentView.swift */,
 				4DFF1C0E2A3EF2E100AD7C2A /* ContactsView.swift */,
-				4DFF1C102A3EF2F800AD7C2A /* ContactsDatailView.swift */,
+				4DFF1C102A3EF2F800AD7C2A /* ContactDatailView.swift */,
 				4DFF1C122A3EF30C00AD7C2A /* NumbersView.swift */,
 				4DFF1C0A2A3EF06300AD7C2A /* Person.swift */,
 				4DFF1C0C2A3EF09800AD7C2A /* DataManager.swift */,
@@ -154,7 +154,7 @@
 			files = (
 				4DFF1C0B2A3EF06300AD7C2A /* Person.swift in Sources */,
 				4DFF1C0D2A3EF09800AD7C2A /* DataManager.swift in Sources */,
-				4DFF1C112A3EF2F800AD7C2A /* ContactsDatailView.swift in Sources */,
+				4DFF1C112A3EF2F800AD7C2A /* ContactDatailView.swift in Sources */,
 				4DFF1BFF2A3CA1A000AD7C2A /* ContentView.swift in Sources */,
 				4DFF1C132A3EF30C00AD7C2A /* NumbersView.swift in Sources */,
 				4DFF1C0F2A3EF2E100AD7C2A /* ContactsView.swift in Sources */,
