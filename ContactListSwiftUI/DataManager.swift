@@ -5,9 +5,9 @@
 //  Created by Елена Логинова on 18.06.2023.
 //
 
-final class DataStore {
+final class DataManager {
     
-    static let shared = DataStore()
+    static let shared = DataManager()
     
     let names = ["Lena", "Kate", "Masha",
                  "Pasha", "Stas", "Kolyn",
