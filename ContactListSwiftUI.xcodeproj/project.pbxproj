@@ -11,6 +11,7 @@
 		4DFF1BFF2A3CA1A000AD7C2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF1BFE2A3CA1A000AD7C2A /* ContentView.swift */; };
 		4DFF1C012A3CA1A100AD7C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFF1C002A3CA1A100AD7C2A /* Assets.xcassets */; };
 		4DFF1C042A3CA1A100AD7C2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFF1C032A3CA1A100AD7C2A /* Preview Assets.xcassets */; };
+		4DFF1C0B2A3EF06300AD7C2A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF1C0A2A3EF06300AD7C2A /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4DFF1BFE2A3CA1A000AD7C2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DFF1C002A3CA1A100AD7C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DFF1C032A3CA1A100AD7C2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DFF1C0A2A3EF06300AD7C2A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4DFF1BFC2A3CA1A000AD7C2A /* ContactListSwiftUIApp.swift */,
 				4DFF1BFE2A3CA1A000AD7C2A /* ContentView.swift */,
+				4DFF1C0A2A3EF06300AD7C2A /* Person.swift */,
 				4DFF1C002A3CA1A100AD7C2A /* Assets.xcassets */,
 				4DFF1C022A3CA1A100AD7C2A /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DFF1C0B2A3EF06300AD7C2A /* Person.swift in Sources */,
 				4DFF1BFF2A3CA1A000AD7C2A /* ContentView.swift in Sources */,
 				4DFF1BFD2A3CA1A000AD7C2A /* ContactListSwiftUIApp.swift in Sources */,
 			);
