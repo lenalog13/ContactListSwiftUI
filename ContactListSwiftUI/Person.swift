@@ -22,7 +22,7 @@ struct Person {
 extension Person {
     
     static func getContactList() -> [Person] {
-        let data = DataStore.shared
+        let data = DataManager.shared
         var contactList: [Person] = []
         
         let names = data.names.shuffled()
@@ -37,10 +37,11 @@ extension Person {
         
         
         for index in 0..<count {
-            contactList.append(Person(name: names[index],
-                                      surname: surnames[index],
-                                      phoneNumber: phoneNumbers[index],
-                                      email: emails[index])
+            contactList.append(
+                Person(name: names[index],
+                       surname: surnames[index],
+                       phoneNumber: phoneNumbers[index],
+                       email: emails[index])
             )
         }
         
