@@ -5,8 +5,9 @@
 //  Created by Елена Логинова on 18.06.2023.
 //
 
-struct Person: Hashable {
+struct Person: Identifiable {
     
+    let id: Int
     let name: String
     let surname: String
     let phoneNumber: String
@@ -38,7 +39,8 @@ extension Person {
         
         for index in 0..<count {
             contactList.append(
-                Person(name: names[index],
+                Person(id: index,
+                       name: names[index],
                        surname: surnames[index],
                        phoneNumber: phoneNumbers[index],
                        email: emails[index])
