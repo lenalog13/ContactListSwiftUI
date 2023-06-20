@@ -11,7 +11,16 @@ struct NumbersView: View {
     let contactList: [Person]
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List(contactList) { contact in
+                Section(contact.fullName) {
+                    Label(contact.phoneNumber, systemImage: "phone")
+                    Label(contact.email, systemImage: "tray")
+                }
+            }
+            .navigationTitle("Contact List")
+            .listStyle(.plain)
+        }
     }
 }
 
